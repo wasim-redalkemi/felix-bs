@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
               <p className="banner-link-btn"><Link to="/" className="btn">Get a Free Consultation</Link></p>
             </Col>
             <Col md="6" xs="12" className="img-outer">
-              <img src="/assets/images/felix-illustration.png" alt="Illustration" />
+              <Image src="/assets/images/felix-illustration.png" alt="Illustration" />
             </Col>
           </Row>
         </Container>

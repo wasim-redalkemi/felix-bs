@@ -1,4 +1,4 @@
-import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
+import { Container, Row, Col, Image, Navbar, Nav } from "react-bootstrap";
 import { NavLink, Link } from "react-router-dom";
 export default function Header() {
   return(
@@ -7,7 +7,7 @@ export default function Header() {
         <Row>
           <Col xs={12}>
             <Navbar expand="lg" className="py-0">
-              <Navbar.Brand href="/" className="logo"><img src="/assets/images/logo.png" alt="logo" /></Navbar.Brand>
+              <Navbar.Brand href="/" className="logo"><Image src="/assets/images/logo.png" alt="logo" /></Navbar.Brand>
               <Navbar.Toggle aria-controls="header-nav" />
               <Navbar.Collapse id="header-nav">
                 <Nav className="ms-auto">
