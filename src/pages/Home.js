@@ -7,12 +7,12 @@ export default function Home() {
       <section className="home-banner">
         <Container>
           <Row className="align-items-center">
-            <Col md="6" xs="12" className="text-outer">
+            <Col md="5" xs="12" className="text-outer">
               <h1 className="banner-heading">Websites<br />Made Easy</h1>
               <p className="banner-desc">For the business and the owner</p>
               <p className="banner-link-btn"><Link to="/" className="btn">Get a Free Consultation</Link></p>
             </Col>
-            <Col md="6" xs="12" className="img-outer">
+            <Col md="7" xs="12" className="img-outer">
               <Image src="/assets/images/felix-illustration.png" alt="Illustration" />
             </Col>
           </Row>
